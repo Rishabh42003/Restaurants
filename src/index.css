@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&display=swap');
 
 *{
-  padding: 2px;
+  padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: outfit;
-  scroll-behavior: smooth;
 }
 
 body{
   min-height: 100vh;
+  background-color: #fcfcfc;
 }
 
 a{
@@ -17,16 +17,16 @@ a{
   color: inherit;
 }
 
-.app{
-  width: 80%;
-  margin: auto;
+hr{
+  border: none;
+  height: 1px;
+  background-color: #a9a9a9;
 }
 
-@keyframes fadeIn {
-  0%{
-    opacity: 0;
-  }
-  100%{
-    opacity: 1;
-  }
+.app-content{
+  display: flex;
+}
+
+.cursor{
+  cursor: pointer;
 }
